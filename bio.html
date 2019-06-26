@@ -7,46 +7,70 @@
     <title>Zhen Cui</title>
 
    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
         h1{
             background-color: black;
             color: white;
             text-align: center;
-            padding: 15px;
+            padding: 20px;
             width:100%;
         }
+        h2{
+            text-decoration: underline;
+        }
+        .content{
+            display:flex;
+            flex-direction: row;
+            justify-content: space-around;
+            background: #eeeeee;
+            padding:20px 20px 50px 20px;
+        }
         .column1{
-            float:left;
-            width:33%;
+            width:20%;
         }
         .column2{
-            float:left;
-            width:33%;
+            width:50%;
             margin-top:4%;
+            display:flex
+        }
+        .column2>p{
+            margin: 40px 0 0 0;
         }
         .column3{
-            float:left;
-            width:33%;
+            width:25%;
+        }
+        .cat{
+            height:50%;
         }
     </style>
 </head>
 <body>
    
     <h1>Student Bio</h1> 
-    <div class="column1">
-    <h2>Zhen Cui</h2>
-    <!-- <img src="https://s3.us-west-2.amazonaws.com/photos.puppyspot.com/breeds/228/card/500000288_medium.jpg"> -->
-    <img src="assets/images/cat.jpg">
-    </div>
-    <div class="column2">
-    <p>
-    Hello, nice to meet you guys!
-    </p>
-    </div>
-    <div class="column3">
-    <h2>Contact Info</h2>
-    <li><strong>Email: </strong><a href="https://mail.google.com">zcui1989@gmail.com</a></li>
-    <li><strong>GitHub: </strong><a href=>Sample Name</a></li>
-    <li><strong>Portfolio: </strong><a href=>Comming soon</a></li>
+    <div class="content">
+        <div class="column1">
+            <h2>Zhen Cui</h2>
+            <!-- <img src="https://s3.us-west-2.amazonaws.com/photos.puppyspot.com/breeds/228/card/500000288_medium.jpg"> -->
+            <img class="cat" src="assets/images/cat.jpg">
+        </div>
+        <div class="column2">
+            <p>Hello, nice to meet you guys! adfjoadjfoadjfoijj aodfjoadjfoadjfoasjdfoaj asdfjoadfjadjf odjfa osaj dofjaodjf aodjf oajd foajdofija sodijf 
+                oadsjf oadijf o oasdjf oajd foajd ofija fodajfoa f
+                aodjfoa dfosajdfj 
+                asdfnlfandlfnalsdnflsandlfnadlfnandflanslfd
+                aodfjosadjfoa dfadsofjoaijdfoajfdaijf aodjfoajfdoajdf</p>
+        </div>
+        <div class="column3">
+            <h2>Contact Info</h2>
+            <ul>
+                <li><strong>Email: </strong><a href="https://mail.google.com">zcui1989@gmail.com</a></li>
+                <li><strong>GitHub: </strong><a href=>Sample Name</a></li>
+                <li><strong>Portfolio: </strong><a href=>Comming soon</a></li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
